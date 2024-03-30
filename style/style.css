@@ -1,0 +1,104 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: url('https://64.media.tumblr.com/3d6800e1d834e507cde1e4e91f3a5586/tumblr_p18q34vD3B1va8przo1_1280.png');
+  background-size: cover;
+  cursor: url('/cursor/cursor_3.0.cur'), auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+p{
+  font-size: 1.5em;
+}
+
+form {
+  background-color: #7997e798;
+  color: black;
+  border-radius: 20px;
+  border: 2px solid #d212e4;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 1rem auto;
+  padding-bottom: 2em;
+}
+
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #a3319a;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 5px;
+  width: 90%;
+  min-height: 2em;
+}
+
+input,
+textarea {
+  background-color: #327daf9c;
+  border: 1px solid #05052c;
+  color: #ff0000;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers (Safari, Google Chrome, Opera 15+) */
+  color: #ff00559c;
+}
+
+.console, 
+.genre {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.console,
+.genre {
+  display: inline; 
+}
+
+.submit {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #ff00559c;
+  border-color: #05052c;
+  min-width: 300px;
+}
+
+input:hover,
+label:hover,
+select:hover,
+textarea:hover,
+.genre:hover,
+.console:hover,
+.submit:hover {
+  cursor: url('/cursor/cursor_3.0_pointer.cur'), auto;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link href="/favicon/gamer.favicon.ico" rel="icon" type="image/x-icon">
+  <title>login form</title>
+</head>
+
+<body>
+  <h1 id="title">My form exercise</h1>
+  <p id="description">questo è un form di esercitazione (login) di un sito per gamer</p>
+  
+  <!-- inizio del form di registrazione del sito -->
+  <form action="text" id="survey-form" name="survey-form">
+    <!-- first fieldset -->
+    <fieldset>
+    <label for="name-label" id="name-label"> Inserisci il tuo nome:
+      <input type="text" name="name-label" id="name" placeholder="inserire il nome" required>
+    </label>
+    <label for="email-label" id="email-label"> Inserisci la tua e-mail:
+      <input type="email" name="email-label" id="email" placeholder="inserire un'e-mail" required>
+    </label>
+    <label for="number-label" id="number-label"> Inserisci la tua età: (opzionale)
+      <input type="number" name="number" id="number" min="14" max="100" placeholder="inserire l'età" required>
+    </label>
+  </fieldset>
+  
+  <!-- second fieldset -->
+    <fieldset>
+      <legend>Perché giochi ai videogiochi?</legend>
+      <select name="" id="dropdown">
+        <option value="lavoro">lavoro</option>
+        <option value="divertimento">divertimento</option>
+      </select>
+    </fieldset>
+  
+    <!-- third fieldset -->
+    <fieldset>
+      <legend>Quale console preferisci?</legend>
+      <label for="playstation"><input id="playstation" type="radio" name="console" class="console" value="Playstation"> Playstation</label>
+      <label for="xbox360"><input id="xbox360" type="radio" name="console" class="console" value="xbox360"> Xbox 360</label>
+      <label for="nintendo-switch"><input id="nintendo-switch" type="radio" name="console" class="console" value="nintendo-switch"> Nintendo Switch</label>
+    </fieldset>
+  
+    <!-- fouth fieldset -->
+    <fieldset>
+      <legend>Scegli il tuo genere di videogiochi preferito:</legend>
+      <label for="genre">
+        <input class="genre" name="genre" type="checkbox" value="1"> Picchiaduro
+      </label>
+      <label for="genre">
+        <input class="genre" name="genre" type="checkbox" value="2"> Open Word
+      </label>
+      <label for="genre">
+        <input class="genre" name="genre" type="checkbox" value="3"> Sportivi
+      </label>
+      <label for="genre">
+        <input class="genre" name="genre" type="checkbox" value="4"> Platform
+      </label>
+    </fieldset>
+  
+    <!-- fifth fieldset -->
+    <fieldset>
+      <form action="text">La tua prima esperienza con i videogiochi:
+        <textarea name="comment" id="comments" cols="50" rows="10" placeholder="descrivi la tua prima esperienza"></textarea>
+      </form>
+      <button class="submit" type="submit" value="submit">Submit</button>
+    </fieldset>
+  </form>
+</body>
+</html>
